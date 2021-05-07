@@ -1,7 +1,5 @@
 FROM alpine:3.7
 
-MAINTAINER Dmitry Karikh <the.dr.hax@gmail.com>
-
 RUN apk add --no-cache --virtual .build-deps \
     curl \
     make \
